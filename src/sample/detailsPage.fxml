@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="pane" prefHeight="400.0" prefWidth="530.0" style="-fx-background-color: dbb2d9;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.detailsController">
+   <children>
+      <Label fx:id="playerInfo" layoutX="70.0" layoutY="64.0" text="Label">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Button fx:id="closeButton" layoutX="442.0" layoutY="337.0" mnemonicParsing="false" onAction="#closePage" stylesheets="@test.css" text="Close" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="playerImage" fitHeight="245.0" fitWidth="179.0" layoutX="319.0" layoutY="68.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>
